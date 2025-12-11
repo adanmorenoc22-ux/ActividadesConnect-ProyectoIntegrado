@@ -11,7 +11,8 @@ if (strpos($current_dir, '/actividades') !== false ||
     strpos($current_dir, '/propuestas') !== false || 
     strpos($current_dir, '/reservas') !== false || 
     strpos($current_dir, '/solicitudes') !== false ||
-    strpos($current_dir, '/ofertantes') !== false) {
+    strpos($current_dir, '/ofertantes') !== false ||
+    strpos($current_dir, '/enlace-docs') !== false) {
     $base_path = '../';
 }
 ?>
